@@ -1,0 +1,28 @@
+.page-header {
+  height: 55vh !important;
+}
+
+.maincontent {
+  margin-top: 2%;
+}
+
+.rounded-circle {
+  width: 80%;
+  height: 265px;
+  border: 3px solid white;
+}
+
+.vertalign {
+  position: relative;
+top: 20%;
+transform: translateY(-50%);
+}
+
+.borderaround {
+  padding-bottom: 2%;
+    border-bottom: 0.5px solid gray;
+}
+
+agm-map {
+  height: 300px;
+}
