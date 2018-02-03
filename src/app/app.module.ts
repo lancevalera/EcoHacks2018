@@ -9,6 +9,7 @@ import {LoginComponent} from './Login/login.component';
 import {HomeComponent} from './Home/home.component';
 import {ProfileComponent} from './Profile/profile.component';
 import {NavbarComponent} from './Navbar/navbar.component';
+import {StoreComponent} from './Store/store.component';
 
 import {HttpService} from './Services/http.service'
 
@@ -22,7 +23,8 @@ import { AppRoutingModule } from './/app-routing.module';
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    ProfileComponent
+    ProfileComponent,
+    StoreComponent
   ],
   imports: [
     BrowserModule,
