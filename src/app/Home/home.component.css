@@ -15,8 +15,13 @@
 }
 
 .card-block > p {
+  font-weight: 800;
   margin-top: 2px;
   font-size: 120%;
   margin-bottom: 0%;
   color: #6D4C41;
+}
+
+.card-block > h4 {
+margin-bottom: 0%;
 }
