@@ -12,7 +12,7 @@ export class HttpService {
 
   //TODO: append endpoints to url
   Login(UserInfo): Observable<any> {
-    return this._http.post(this.url, UserInfo);
+    return this._http.get(this.url+'/Login/GetUser?username='+UserInfo.username+'&password='+UserInfo.password);
   }
 
   Submit(NewUser): Observable<any> {
