@@ -11,7 +11,9 @@ import {ProfileComponent} from './Profile/profile.component';
 import {NavbarComponent} from './Navbar/navbar.component';
 import {StoreComponent} from './Store/store.component';
 
-import {HttpService} from './Services/http.service'
+import {HttpService} from './Services/http.service';
+
+import { AgmCoreModule } from '@agm/core';
 
 import { AppRoutingModule } from './/app-routing.module';
 
@@ -29,7 +31,10 @@ import { AppRoutingModule } from './/app-routing.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBBnbUjoaJyFFDQnnhuTlWnJlDXygkkW3U'
+    })
   ],
   providers: [HttpService],
   bootstrap: [AppComponent]
