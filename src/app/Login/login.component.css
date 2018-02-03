@@ -1,0 +1,23 @@
+.formcontainer {
+  background-image: url('../../assets/images/loginbackground.jpg');
+}
+
+.card-login {
+    max-width: 320px;
+}
+
+.submitbtn {
+  padding-bottom: 2%
+}
+
+.pull-left{
+  text-align: left;
+}
+
+.pull-left > a {
+  padding-left: 0% !important;
+}
+
+.bluebtn {
+  background-color: #1976D2;
+}

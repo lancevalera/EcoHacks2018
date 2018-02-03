@@ -1,0 +1,8 @@
+.container {
+  max-width: none;
+}
+
+.navbar-brand {
+  font-size: 135%;
+  font-weight: bold;
+}

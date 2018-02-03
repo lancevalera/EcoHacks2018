@@ -1,0 +1,44 @@
+<div class="page-header" filter-color="green">
+        <div class="page-header-image" style="background-image:url(../../assets/images/registrationbackground.jpeg)"></div>
+        <div class="container">
+            <div class="col-md-4 content-center">
+                <div class="card card-login card-plain">
+                    <form class="form" method="" action="">
+
+                      <div class="content" style='margin: auto'>
+                        <div class="input-group form-group-no-border input-lg">
+                          <input type="text" required name='fname' value="" placeholder="First name" class="form-control" style='color: white' [(ngModel)]='NewUser.firstname'>
+                        </div>
+
+                        <div class="input-group form-group-no-border input-lg">
+                          <input type="text" required name='lname' value="" placeholder="Last name" class="form-control" style='color: white' [(ngModel)]='NewUser.lastname'>
+                        </div>
+
+                        <div class="input-group form-group-no-border input-lg">
+                          <input type="email" required name='email' value="" placeholder="E-mail" class="form-control" style='color: white' [(ngModel)]='NewUser.email'>
+                        </div>
+
+                        <div class="input-group form-group-no-border input-lg">
+                          <input type="text" required name='uname' value="" placeholder="Username" class="form-control" style='color: white' [(ngModel)]='NewUser.username'>
+                        </div>
+
+                        <div class="input-group form-group-no-border input-lg">
+                          <input type="password" required name='password' value="" placeholder="Password" class="form-control" style='color: white' [(ngModel)]='NewUser.password'>
+                        </div>
+
+                        <div class="input-group form-group-no-border input-lg">
+                          <input type="password" required name='passwordconfirm' value="" placeholder="Confirm Password"
+                           class="form-control" style='color: white' [(ngModel)]='passwordconfirm'>
+                        </div>
+                      </div>
+
+                      <div class="footer text-center submitbtn">
+                        <button type='submit' class="btn btn-primary btn-round greenbtn" style='width: 100%;' (click)='submit()'>Submit</button>
+                      </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+      </div>
